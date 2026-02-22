@@ -54,6 +54,7 @@ Here are examples from the lecture notes demonstrating how to find $y_c$ for dif
 **Find $y_c$ for:** $y'' + 6y' + 5y = 0$
 
 **Solution:**
+
 1.  **Write in Operator Form:**
     $(D^2 + 6D + 5)y = 0$
 2.  **Auxiliary Equation:**
@@ -72,6 +73,7 @@ Here are examples from the lecture notes demonstrating how to find $y_c$ for dif
 **Find $y_c$ for:** $y''' + 3y'' + 3y' + y = 0$
 
 **Solution:**
+
 1.  **Write in Operator Form:**
     $(D^3 + 3D^2 + 3D + 1)y = 0$
 2.  **Auxiliary Equation:**
@@ -90,6 +92,7 @@ Here are examples from the lecture notes demonstrating how to find $y_c$ for dif
 **Find $y_c$ for:** $y'''' + 4y = 0$
 
 **Solution:**
+
 1.  **Write in Operator Form:**
     $(D^4 + 4)y = 0$
 2.  **Auxiliary Equation:**
