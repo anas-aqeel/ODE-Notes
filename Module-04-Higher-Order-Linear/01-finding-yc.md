@@ -46,7 +46,49 @@ $$ y_c = e^{\alpha x} (C_1 \cos \beta x + C_2 \sin \beta x) $$
 
 ---
 
-## 4. Solved Questions
+## 4. Advanced: Finding Roots using Synthetic Division
+
+When the auxiliary equation is a 3rd-degree or 4th-degree polynomial that cannot be easily factored, we use **Synthetic Division** to find the roots by trial and error.
+
+### 📝 Example: 4th-Order Equation
+**Find $y_c$ for:** $(D^4 + 6D^3 + 5D^2 - 24D - 36)y = 0$
+
+**Solution:**
+1. **Auxiliary Equation:**
+   $m^4 + 6m^3 + 5m^2 - 24m - 36 = 0$
+2. **First Root by Trial & Error:**
+   Test small integers ($1, -1, 2, -2$). Let's test $m = -2$:
+   $(-2)^4 + 6(-2)^3 + 5(-2)^2 - 24(-2) - 36 = 16 - 48 + 20 + 48 - 36 = 0$.
+   Since the result is 0, **$m = -2$ is a root**.
+3. **Synthetic Division (First Pass):**
+   ```text
+      -2 |  1   6   5  -24  -36
+         |     -2  -8    6   36
+         -----------------------
+            1   4  -3  -18    0  (Remainder is 0)
+   ```
+   The reduced cubic equation is: $m^3 + 4m^2 - 3m - 18 = 0$
+4. **Second Root by Trial & Error:**
+   Test $m = -2$ again on the new cubic equation:
+   $(-2)^3 + 4(-2)^2 - 3(-2) - 18 = -8 + 16 + 6 - 18 = -4 \neq 0$. (Not a root).
+   Test $m = 2$:
+   $(2)^3 + 4(2)^2 - 3(2) - 18 = 8 + 16 - 6 - 18 = 0$. **$m = 2$ is a root.**
+5. **Synthetic Division (Second Pass):**
+   ```text
+       2 |  1   4  -3  -18
+         |      2  12   18
+         ------------------
+            1   6   9    0
+   ```
+   The reduced quadratic equation is: $m^2 + 6m + 9 = 0$
+6. **Solve the Quadratic:**
+   $m^2 + 6m + 9 = 0 \implies (m+3)^2 = 0 \implies m = -3, -3$
+7. **Final Roots and $y_c$:**
+   The four roots are: $m = -2, 2, -3, -3$.
+   Since -3 is repeated, the Complementary Function is:
+   $$ y_c = C_1 e^{-2x} + C_2 e^{2x} + (C_3 + C_4 x)e^{-3x} $$
+
+## 5. Solved Questions
 
 Here are examples from the lecture notes demonstrating how to find $y_c$ for different types of roots.
 
