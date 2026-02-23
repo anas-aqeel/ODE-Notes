@@ -1,6 +1,8 @@
+<a id="course-overview"></a>
+
 # 📘 Ordinary Differential Equations (ODEs) & Linear Algebra
 
-Welcome to the comprehensive course repository for **Ordinary Differential Equations (ODEs)**. This repository serves as a digitized, structured, and easily navigable study guide based on handwritten lecture notes. It covers the fundamental concepts, methods of solving various differential equations, and their applications.
+Welcome to the comprehensive study guide for **Ordinary Differential Equations (ODEs)**. This document serves as a digitized, structured, and easily navigable reference book based on handwritten lecture notes. It covers the fundamental concepts, methods of solving various differential equations, and their applications.
 
 ---
 
@@ -28,40 +30,47 @@ To supplement the materials in this repository, the following textbooks are reco
 
 ---
 
-## 🗂️ Repository Structure & Syllabus
+## 🗂️ Table of Contents
 
-This repository is organized into modular folders for easy navigation. Click on any module to explore the topics, concepts, and step-by-step solved mathematical problems.
+This document is organized into five modules for a complete learning path. Click on any section to jump directly to it.
 
-### [Module 1: Fundamentals of Differential Equations](./Module-01-Fundamentals/)
-*   Definitions of ODEs and PDEs
-*   Order and Degree of a Differential Equation
-*   Formation of Differential Equations by Eliminating Arbitrary Constants
+### [Module 1: Fundamentals of Differential Equations](#module-1)
+*   [1.1 Basic Definitions](#basic-definitions) — ODEs vs. PDEs
+*   [1.2 Order and Degree](#order-and-degree) — Classifying differential equations
+*   [1.3 Formation of ODEs](#formation-of-odes) — Eliminating arbitrary constants
+*   [1.4 Practice Questions](#module-1-practice)
 
-### [Module 2: Solving First-Order ODEs](./Module-02-First-Order-ODEs/)
-*   Variable Separable Method
-*   Homogeneous Differential Equations
-*   Equations Reducible to Homogeneous Form
-*   Linear Differential Equations (Integrating Factors)
-*   Bernoulli's Equations (Reducible to Linear Form)
+### [Module 2: Solving First-Order ODEs](#module-2)
+*   [2.1 Variable Separable Method](#variable-separable)
+*   [2.2 Homogeneous Differential Equations](#homogeneous-eqs)
+*   [2.3 Equations Reducible to Homogeneous Form](#reducible-to-homo)
+*   [2.4 Linear Differential Equations](#linear-odes) — Integrating Factors
+*   [2.5 Bernoulli's Equations](#bernoulli-eqs) — Reducible to Linear Form
+*   [2.6 Practice Questions](#module-2-practice)
 
-### [Module 3: Applications of First-Order ODEs](./Module-03-Applications/)
-*   Orthogonal Trajectories
+### [Module 3: Applications of First-Order ODEs](#module-3)
+*   [3.1 Orthogonal Trajectories](#orthogonal-trajectories)
+*   [3.2 Practice Questions](#module-3-practice)
 
-### [Module 4: Higher-Order Linear ODEs (Constant Coefficients)](./Module-04-Higher-Order-Linear/)
-*   Finding the Complementary Function ($y_c$)
-*   Particular Integral ($y_p$) - Exponential Functions
-*   Particular Integral ($y_p$) - Algebraic Functions
-*   Particular Integral ($y_p$) - Trigonometric Functions
-*   Particular Integral ($y_p$) - Product/Shift Rule
-*   Particular Integral ($y_p$) - Principle of Superposition
+### [Module 4: Higher-Order Linear ODEs (Constant Coefficients)](#module-4)
+*   [4.1 Finding the Complementary Function ($y_c$)](#finding-yc)
+*   [4.2 Particular Integral ($y_p$): Exponential Case](#yp-exponential)
+*   [4.3 Particular Integral ($y_p$): Algebraic Case](#yp-algebraic)
+*   [4.4 Particular Integral ($y_p$): Trigonometric Case](#yp-trigonometric)
+*   [4.5 Particular Integral ($y_p$): Shift & Product Rules](#yp-shift-product)
+*   [4.6 Particular Integral ($y_p$): Principle of Superposition](#yp-superposition)
+*   [4.7 Practice Questions](#module-4-practice)
 
-### [Module 5: Higher-Order Linear ODEs (Variable Coefficients)](./Module-05-Variable-Coeff/)
-*   Cauchy-Euler Differential Equations
+### [Module 5: Higher-Order Linear ODEs (Variable Coefficients)](#module-5)
+*   [5.1 Cauchy-Euler Differential Equations](#cauchy-euler-eqs)
+*   [5.2 Practice Questions](#module-5-practice)
 
 ---
 
-*Note: The broader course syllabus also includes Linear Algebra, Partial Differential Equations (PDEs), and Fourier Series. This repository currently focuses primarily on the digitized lecture notes for 1st and 2nd/Higher Order ODEs.*
+*Note: The broader course syllabus also includes Linear Algebra, Partial Differential Equations (PDEs), and Fourier Series. This document currently focuses on the digitized lecture notes for 1st and 2nd/Higher Order ODEs.*
 
+
+<a id="module-1"></a>
 
 # 📂 Module 1: Fundamentals of Differential Equations
 
@@ -79,31 +88,27 @@ By the end of this module, you will be able to:
 
 ## 🗂️ Topic Index
 
-Navigate through the topics covered in this module using the links below:
-
-### 📄 [1. Basic Definitions](./01-definitions.md)
+### 📄 [1. Basic Definitions](#basic-definitions)
 *   **What is a Differential Equation?**
 *   **Ordinary Differential Equations (ODEs)** vs. **Partial Differential Equations (PDEs)**.
 *   Understanding dependent and independent variables.
 
-### 📄 [2. Order and Degree of a DE](./02-order-and-degree.md)
+### 📄 [2. Order and Degree of a DE](#order-and-degree)
 *   **Order:** Identifying the highest differential coefficient.
 *   **Degree:** Determining the highest power of the highest derivative.
 *   **Rules:** Making the equation free from radicals and fractions before determining the degree.
 *   *Includes step-by-step solved exercises.*
 
-### 📄 [3. Formation of Differential Equations](./03-formation-of-odes.md)
+### 📄 [3. Formation of Differential Equations](#formation-of-odes)
 *   The relationship between the number of arbitrary constants and the order of the resulting DE.
 *   **Methodology:** Differentiating ordinary equations and eliminating constants.
 *   *Includes step-by-step solved exercises.*
 
-### 📝 [4. Practice Questions](./04-practice-questions.md)
+### 📝 [4. Practice Questions](#module-1-practice)
 *   Problems covering definitions, order & degree, and formation of ODEs.
 *   *Includes fully worked solutions.*
 
----
-
-**Next Steps:** Start with the first topic, [Basic Definitions](./01-definitions.md), to begin your study of differential equations.
+<a id="basic-definitions"></a>
 
 # 📖 Basic Definitions of Differential Equations
 
@@ -151,8 +156,10 @@ Here are some standard examples of Ordinary Differential Equations:
 
 ---
 
-**Next Topic:** Now that you know what a differential equation is, proceed to [Topic 1.2: Order and Degree of a DE](./02-order-and-degree.md) to learn how to classify ODEs by their highest derivatives and powers.
+**Next Topic:** Now that you know what a differential equation is, proceed to [Order and Degree of a DE](#order-and-degree) to learn how to classify ODEs by their highest derivatives and powers.
 
+
+<a id="order-and-degree"></a>
 
 # 📏 Order and Degree of a Differential Equation
 
@@ -224,8 +231,10 @@ $$ \left[ 1 + \left( \frac{dy}{dx} \right)^2 \right]^{3/2} = K \frac{d^2y}{dx^2}
 
 ---
 
-**Next Topic:** Now that you know how to classify DEs, proceed to [Topic 1.3: Formation of Differential Equations](./03-formation-of-odes.md) to learn how these equations are originally constructed.
+**Next Topic:** Now that you know how to classify DEs, proceed to [Formation of Differential Equations](#formation-of-odes) to learn how these equations are originally constructed.
 
+
+<a id="formation-of-odes"></a>
 
 # 🏗️ Formation of Differential Equations
 
@@ -306,8 +315,10 @@ $$ y = A\cos x + B\sin x $$
 
 ---
 
-**Next Steps:** Test your understanding of these concepts with the [Module 1 Practice Questions](./04-practice-questions.md).
+**Next Steps:** Test your understanding of these concepts with the [Module 1 Practice Questions](#module-1-practice).
 
+
+<a id="module-1-practice"></a>
 
 # 📝 Module 1 Practice: Formation of Differential Equations
 
@@ -396,8 +407,10 @@ This section contains homework and practice problems to test your understanding 
 
 ---
 
-**Next Module:** You have successfully completed Module 1! You are now ready to begin solving equations. Proceed to [Module 2: Solving First-Order ODEs](../Module-02-First-Order-ODEs/README.md).
+**Next Module:** You have successfully completed Module 1! You are now ready to begin solving equations. Proceed to [Module 2: Solving First-Order ODEs](#module-2).
 
+
+<a id="module-2"></a>
 
 # 📂 Module 2: Solving First-Order Ordinary Differential Equations
 
@@ -417,41 +430,39 @@ By the end of this module, you will be able to:
 
 ## 🗂️ Topic Index & Solution Methods
 
-Navigate through the methods covered in this module using the links below. It is highly recommended to study them in this exact order, as later methods often reduce equations back down to earlier methods (e.g., Homogeneous equations reduce down to Variable Separable).
+It is highly recommended to study these methods in this exact order, as later methods often reduce equations back down to earlier methods (e.g., Homogeneous equations reduce down to Variable Separable).
 
-### 📄 [1. Variable Separable Method](./01-variable-separable.md)
+### 📄 [1. Variable Separable Method](#variable-separable)
 *   **The Concept:** Grouping all $x$ terms with $dx$ and all $y$ terms with $dy$.
 *   **The Standard Form:** $f(y)dy = g(x)dx$
 *   *Includes 4 step-by-step solved questions.*
 
-### 📄 [2. Homogeneous Differential Equations](./02-homogeneous-eqs.md)
+### 📄 [2. Homogeneous Differential Equations](#homogeneous-eqs)
 *   **The Concept:** Identifying functions where every term has the same total degree.
 *   **The Substitution:** Using $y = vx$ to reduce the equation to a Variable Separable form.
 *   *Includes 6 step-by-step solved questions.*
 
-### 📄 [3. Equations Reducible to Homogeneous Form](./03-reducible-to-homo.md)
+### 📄 [3. Equations Reducible to Homogeneous Form](#reducible-to-homo)
 *   **The Concept:** Handling linear rational equations with constant terms: $\frac{dy}{dx} = \frac{ax+by+C}{Ax+By+C}$.
 *   **Case 1:** Ratios of coefficients are not equal ($\frac{a}{A} \neq \frac{b}{B}$).
 *   **Case 2:** Ratios of coefficients are equal ($\frac{a}{A} = \frac{b}{B}$).
 *   *Includes step-by-step solved questions.*
 
-### 📄 [4. Linear Differential Equations](./04-linear-odes.md)
+### 📄 [4. Linear Differential Equations](#linear-odes)
 *   **The Concept:** Solving equations of the form $\frac{dy}{dx} + P(x)y = Q(x)$.
 *   **The Tool:** Finding and applying the **Integrating Factor (I.F.)**.
 *   *Includes 2 step-by-step solved questions.*
 
-### 📄 [5. Bernoulli's Equations (Reducible to Linear)](./05-bernoulli-eqs.md)
+### 📄 [5. Bernoulli's Equations (Reducible to Linear)](#bernoulli-eqs)
 *   **The Concept:** Solving non-linear equations of the form $\frac{dy}{dx} + P(x)y = Q(x)y^n$.
 *   **The Substitution:** Dividing by $y^n$ and substituting $z = y^{1-n}$ to transform it into a standard Linear DE.
 *   *Includes 2 step-by-step solved questions.*
 
-### 📝 [6. Practice Questions](./06-practice-questions.md)
+### 📝 [6. Practice Questions](#module-2-practice)
 *   Categorized problems covering all five methods: Variable Separable, Homogeneous, Reducible to Homogeneous, Linear, and Bernoulli.
 *   *Includes fully worked solutions.*
 
----
-
-**Next Steps:** Start with the most fundamental solving technique: [Method 1: Variable Separable](./01-variable-separable.md).
+<a id="variable-separable"></a>
 
 # 🧮 1. Variable Separable Method
 
@@ -568,8 +579,10 @@ Here are four questions from the lecture notes, demonstrating standard separatio
 
 ---
 
-**Next Method:** What happens if the variables *cannot* be cleanly separated? Proceed to [Method 2: Homogeneous Differential Equations](./02-homogeneous-eqs.md) to learn the next technique.
+**Next Method:** What happens if the variables *cannot* be cleanly separated? Proceed to [Method 2: Homogeneous Differential Equations](#homogeneous-eqs) to learn the next technique.
 
+
+<a id="homogeneous-eqs"></a>
 
 # 🧬 2. Homogeneous Differential Equations
 
@@ -686,8 +699,10 @@ Here are questions from the lecture notes demonstrating the homogeneity check an
 
 ---
 
-**Next Method:** What if the equation looks homogeneous but has constant terms interfering? Proceed to [Method 3: Equations Reducible to Homogeneous Form](./03-reducible-to-homo.md).
+**Next Method:** What if the equation looks homogeneous but has constant terms interfering? Proceed to [Method 3: Equations Reducible to Homogeneous Form](#reducible-to-homo).
 
+
+<a id="reducible-to-homo"></a>
 
 # 📉 3. Equations Reducible to Homogeneous Form
 
@@ -783,8 +798,10 @@ $$ 2y - 2x + \frac{4}{3}\ln|3x + 6y - 1| = C' $$
 
 ---
 
-**Next Method:** While Homogeneous and Reducible methods deal with ratios, many physical systems are modeled by **Linear Differential Equations**. Proceed to [Method 4: Linear ODEs](./04-linear-odes.md).
+**Next Method:** While Homogeneous and Reducible methods deal with ratios, many physical systems are modeled by **Linear Differential Equations**. Proceed to [Method 4: Linear ODEs](#linear-odes).
 
+
+<a id="linear-odes"></a>
 
 # 📏 4. Linear Differential Equations
 
@@ -898,8 +915,10 @@ $$ y = \sin x \cos x + C \cos x $$
 
 ---
 
-**Next Method:** Sometimes an equation is *almost* linear but has a pesky $y^n$ term on the right side. This is called a **Bernoulli Equation**. Proceed to [Method 5: Bernoulli's Equations](./05-bernoulli-eqs.md).
+**Next Method:** Sometimes an equation is *almost* linear but has a pesky $y^n$ term on the right side. This is called a **Bernoulli Equation**. Proceed to [Method 5: Bernoulli's Equations](#bernoulli-eqs).
 
+
+<a id="bernoulli-eqs"></a>
 
 # 📉 5. Bernoulli's Equations (Reducible to Linear)
 
@@ -941,7 +960,7 @@ Substitute $z$ and $\frac{dz}{dx}$ back into the equation. It will now be a stan
 $$ \frac{dz}{dx} + (1-n)P(x)z = (1-n)Q(x) $$
 
 **Step 5: Solve and Resubstitute**
-Solve this new linear equation for $z$ using the Integrating Factor method (see [Topic 4](./04-linear-odes.md)). Finally, replace $z$ with $y^{1-n}$ to get the general solution.
+Solve this new linear equation for $z$ using the Integrating Factor method (see [Linear Differential Equations](#linear-odes)). Finally, replace $z$ with $y^{1-n}$ to get the general solution.
 
 ---
 
@@ -1022,8 +1041,10 @@ $$ \frac{1}{y^2} = \frac{1}{4} + Ce^{4x^2} $$
 
 ---
 
-**Next Steps:** Test your mastery of all five first-order methods with the [Module 2 Practice Questions](./06-practice-questions.md).
+**Next Steps:** Test your mastery of all five first-order methods with the [Module 2 Practice Questions](#module-2-practice).
 
+
+<a id="module-2-practice"></a>
 
 # 📝 Module 2 Practice: Solving First-Order ODEs
 
@@ -1125,8 +1146,10 @@ This section contains practice questions from your homework assignments, categor
 
 ---
 
-**Next Module:** Now that we have mastered all methods for solving first-order equations, we will explore their geometric applications. Proceed to [Module 3: Applications of First-Order ODEs](../Module-03-Applications/README.md).
+**Next Module:** Now that we have mastered all methods for solving first-order equations, we will explore their geometric applications. Proceed to [Module 3: Applications of First-Order ODEs](#module-3).
 
+
+<a id="module-3"></a>
 
 # 📂 Module 3: Applications of First-Order ODEs
 
@@ -1145,21 +1168,17 @@ By the end of this module, you will be able to:
 
 ## 🗂️ Topic Index
 
-Navigate through the applications covered in this module using the link below:
-
-### 📄 [1. Orthogonal Trajectories](./01-orthogonal-trajectories.md)
+### 📄 [1. Orthogonal Trajectories](#orthogonal-trajectories)
 *   **The Concept:** What does it mean for two families of curves to be orthogonal?
 *   **The Method:** Using the negative reciprocal of the slope ($-\frac{dx}{dy}$) to find the perpendicular family.
 *   *Includes step-by-step solved questions for algebraic and trigonometric curves.*
 
-### 📝 [2. Practice Questions](./02-practice-questions.md)
+### 📝 [2. Practice Questions](#module-3-practice)
 *   Problems on finding orthogonal trajectories for circles, parabolas, and exponential curves.
 *   *Includes fully worked solutions.*
 
----
 
-**Next Steps:** Proceed to the topic [Orthogonal Trajectories](./01-orthogonal-trajectories.md) to see how differential equations define the shape of perpendicular curves.
-
+<a id="orthogonal-trajectories"></a>
 
 # 📐 Orthogonal Trajectories
 
@@ -1270,8 +1289,10 @@ $$ x = -\frac{4}{3} y^{3/2} + C $$
 
 ---
 
-**Next Steps:** Practice finding orthogonal trajectories with the [Module 3 Practice Questions](./02-practice-questions.md).
+**Next Steps:** Practice finding orthogonal trajectories with the [Module 3 Practice Questions](#module-3-practice).
 
+
+<a id="module-3-practice"></a>
 
 # 📝 Module 3 Practice: Orthogonal Trajectories
 
@@ -1353,8 +1374,10 @@ This section contains practice problems for finding the geometric orthogonal tra
 
 ---
 
-**Next Module:** We now move to Higher-Order Differential Equations, starting with finding the Complementary Function. Proceed to [Module 4: Higher-Order Linear ODEs](../Module-04-Higher-Order-Linear/README.md).
+**Next Module:** We now move to Higher-Order Differential Equations, starting with finding the Complementary Function. Proceed to [Module 4: Higher-Order Linear ODEs](#module-4).
 
+
+<a id="module-4"></a>
 
 # 📂 Module 4: Higher-Order Linear ODEs (Constant Coefficients)
 
@@ -1377,46 +1400,42 @@ By the end of this module, you will be able to:
 The solution to a non-homogeneous linear ODE $f(D)y = F(x)$ is always the sum of two parts:
 $$ y = y_c + y_p $$
 
-Navigate through the methods for finding these parts using the links below:
-
-### 📄 [1. Finding the Complementary Function ($y_c$)](./01-finding-yc.md)
+### 📄 [1. Finding the Complementary Function ($y_c$)](#finding-yc)
 *   **The Concept:** Solving the homogeneous part $f(D)y = 0$.
 *   **The Method:** Using the Auxiliary (Characteristic) Equation to find roots.
 *   **Cases:** Real & Distinct, Real & Repeated, and Complex Conjugate roots.
 
-### 📄 [2. Particular Integral ($y_p$): Exponential Case](./02-yp-exponential.md)
+### 📄 [2. Particular Integral ($y_p$): Exponential Case](#yp-exponential)
 *   **Function:** $F(x) = e^{ax}$
 *   **Rule:** Replace $D$ with $a$.
 *   *Includes the "Case of Failure" where $f(a) = 0$.*
 
-### 📄 [3. Particular Integral ($y_p$): Algebraic Case](./03-yp-algebraic.md)
+### 📄 [3. Particular Integral ($y_p$): Algebraic Case](#yp-algebraic)
 *   **Function:** $F(x) = x^n$ (Polynomials)
 *   **Rule:** Expand $[f(D)]^{-1}$ using the Binomial Theorem.
 *   *Includes step-by-step solved questions.*
 
-### 📄 [4. Particular Integral ($y_p$): Trigonometric Case](./04-yp-trigonometric.md)
+### 📄 [4. Particular Integral ($y_p$): Trigonometric Case](#yp-trigonometric)
 *   **Function:** $F(x) = \sin(ax)$ or $\cos(ax)$
 *   **Rule:** Replace $D^2$ with $-a^2$.
 *   *Includes the "Case of Failure" handling.*
 
-### 📄 [5. Particular Integral ($y_p$): Shift & Product Rules](./05-yp-shift-product.md)
+### 📄 [5. Particular Integral ($y_p$): Shift & Product Rules](#yp-shift-product)
 *   **Function:** $F(x) = e^{ax} V(x)$ (Product of exponential and another function)
 *   **Rule:** The Exponential Shift Theorem.
 *   *Includes solved examples combining multiple methods.*
 
-### 📄 [6. Particular Integral ($y_p$): Principle of Superposition](./06-yp-superposition.md)
+### 📄 [6. Particular Integral ($y_p$): Principle of Superposition](#yp-superposition)
 *   **The Concept:** When $F(x)$ is a sum of different function types, split into parts, solve each separately, and add.
 *   **The Method:** Linearity of the differential operator allows solving each term independently.
 *   *Includes a step-by-step solved example.*
 
-### 📝 [7. Practice Questions](./07-practice-questions.md)
+### 📝 [7. Practice Questions](#module-4-practice)
 *   Comprehensive problems covering all $y_c$ and $y_p$ methods: homogeneous equations, exponential, algebraic, trigonometric, shift rule, superposition, and initial value problems.
 *   *Includes fully worked solutions.*
 
----
 
-**Next Steps:** The first step in solving *any* higher-order linear equation is finding the Complementary Function. Proceed to [Topic 1: Finding $y_c$](./01-finding-yc.md).
-
+<a id="finding-yc"></a>
 
 # 🔍 1. Finding the Complementary Function ($y_c$)
 
@@ -1579,8 +1598,10 @@ Here are examples from the lecture notes demonstrating how to find $y_c$ for dif
 
 ---
 
-**Next Step:** Once $y_c$ is found, we must find the Particular Integral ($y_p$) based on the function on the right side of the equation. Proceed to [Topic 2: Particular Integral - Exponential Case](./02-yp-exponential.md).
+**Next Step:** Once $y_c$ is found, we must find the Particular Integral ($y_p$) based on the function on the right side of the equation. Proceed to [Particular Integral: Exponential Case](#yp-exponential).
 
+
+<a id="yp-exponential"></a>
 
 # 📈 2. Particular Integral ($y_p$): Exponential Case
 
@@ -1677,8 +1698,10 @@ $$ y_p = \frac{x^3 e^x}{6} $$
 
 ---
 
-**Next Method:** What if $F(x)$ is not exponential, but a polynomial like $x^2$ or $x^3$? Proceed to [Method 2: Algebraic Case](./03-yp-algebraic.md).
+**Next Method:** What if $F(x)$ is not exponential, but a polynomial like $x^2$ or $x^3$? Proceed to [Particular Integral: Algebraic Case](#yp-algebraic).
 
+
+<a id="yp-algebraic"></a>
 
 # 🔢 3. Particular Integral ($y_p$): Algebraic Case
 
@@ -1793,7 +1816,9 @@ $$ y_p = \frac{x^4}{4} - \frac{3}{2} $$
 
 ---
 
-**Next Method:** How do we handle sine and cosine functions? Proceed to [Method 3: Trigonometric Case](./04-yp-trigonometric.md).
+**Next Method:** How do we handle sine and cosine functions? Proceed to [Particular Integral: Trigonometric Case](#yp-trigonometric).
+
+<a id="yp-trigonometric"></a>
 
 # 📉 4. Particular Integral ($y_p$): Trigonometric Case
 
@@ -1920,8 +1945,10 @@ $$ y_p = \frac{x \sin 2x}{4} $$
 
 ---
 
-**Next Method:** Sometimes we have a product of two functions, like $e^x \sin x$. For this, we use the Shift Rule. Proceed to [Method 4: Shift & Product Rules](./05-yp-shift-product.md).
+**Next Method:** Sometimes we have a product of two functions, like $e^x \sin x$. For this, we use the Shift Rule. Proceed to [Exponential Shift Rule](#yp-shift-product).
 
+
+<a id="yp-shift-product"></a>
 
 # 🔄 5. Particular Integral ($y_p$): Exponential Shift Rule
 
@@ -2024,9 +2051,11 @@ $$ y_p = \frac{x e^{2x}}{2} \left( \frac{\sin 3x}{3} \right) = \frac{x e^{2x} \s
 
 ---
 
-**Next Method:** What if $F(x)$ is a *sum* of different function types? We can split the problem into parts. Proceed to [Method 6: Principle of Superposition](./06-yp-superposition.md).
+**Next Method:** What if $F(x)$ is a *sum* of different function types? We can split the problem into parts. Proceed to [Principle of Superposition](#yp-superposition).
 
-## 📝 Method: Linearity / Superposition (Sum of Functions)
+<a id="yp-superposition"></a>
+
+# 📝 6. Principle of Superposition (Sum of Functions)
 
 When the function $F(x)$ on the right side is a sum of different types of functions (e.g., an exponential plus a trigonometric function), we apply the **Principle of Superposition**. We split the Particular Integral into separate parts, solve each using its specific rule, and add them together.
 
@@ -2063,8 +2092,10 @@ When the function $F(x)$ on the right side is a sum of different types of functi
 
 ---
 
-**Next Steps:** Put all the methods together with the [Module 4 Practice Questions](./07-practice-questions.md).
+**Next Steps:** Put all the methods together with the [Module 4 Practice Questions](#module-4-practice).
 
+
+<a id="module-4-practice"></a>
 
 # 📝 Module 4 Practice: Higher-Order Linear ODEs
 
@@ -2386,8 +2417,10 @@ This section contains all the comprehensive practice problems and homework quest
 
 ---
 
-**Next Module:** You have successfully learned how to solve linear equations with *constant* coefficients. But what happens if the coefficients are variables (like $x^2$ or $x$)? Proceed to [Module 5: Cauchy-Euler Differential Equations](../Module-05-Variable-Coeff/README.md).
+**Next Module:** You have successfully learned how to solve linear equations with *constant* coefficients. But what happens if the coefficients are variables (like $x^2$ or $x$)? Proceed to [Module 5: Cauchy-Euler Differential Equations](#module-5).
 
+
+<a id="module-5"></a>
 
 # 📂 Module 5: Higher-Order Linear ODEs (Variable Coefficients)
 
@@ -2407,22 +2440,18 @@ By the end of this module, you will be able to:
 
 ## 🗂️ Topic Index
 
-Navigate to the lesson for this module using the link below:
-
-### 📄 [1. Cauchy-Euler Differential Equations](./01-cauchy-euler-eqs.md)
+### 📄 [1. Cauchy-Euler Differential Equations](#cauchy-euler-eqs)
 *   **The Concept:** Recognizing the $x^n \frac{d^ny}{dx^n}$ structure.
 *   **The Substitution Rule:** Letting $x = e^t$ and defining the new operator $D = \frac{d}{dt}$.
 *   **The Transformation:** Changing $x\frac{dy}{dx}$ to $Dy$ and $x^2\frac{d^2y}{dx^2}$ to $D(D-1)y$.
 *   *Includes step-by-step solved questions converting back and forth between $x$ and $t$ domains.*
 
-### 📝 [2. Practice Questions](./02-practice-questions.md)
+### 📝 [2. Practice Questions](#module-5-practice)
 *   Comprehensive Cauchy-Euler problems including algebraic, logarithmic, and trigonometric right-hand sides.
 *   *Includes fully worked solutions for 4th order, complex roots, and double failure cases.*
 
----
 
-**Next Steps:** Proceed to [Topic 1: Cauchy-Euler Equations](./01-cauchy-euler-eqs.md) to learn how to master this transformative technique.
-
+<a id="cauchy-euler-eqs"></a>
 
 # 🔄 1. Cauchy-Euler Differential Equations
 
@@ -2461,7 +2490,7 @@ Using the chain rule (proof omitted for brevity), the $x$-derivatives transform 
 *   $x^3 \frac{d^3y}{dx^3} = D(D - 1)(D - 2)y = (D^3 - 3D^2 + 2D)y$
 
 **Step 4: Substitute and Solve**
-Substitute these operators into the original equation. It will now be a standard Higher-Order Linear ODE with constant coefficients. Solve for $y(t) = y_c + y_p$ using the methods from Module 4.
+Substitute these operators into the original equation. It will now be a standard Higher-Order Linear ODE with constant coefficients. Solve for $y(t) = y_c + y_p$ using the methods from [Module 4](#module-4).
 
 **Step 5: Resubstitute back to $x$**
 Once you have the final answer in terms of $t$, replace every $t$ with $\ln x$ and every $e^{kt}$ with $x^k$.
@@ -2547,8 +2576,10 @@ $$ y(x) = x^2 [C_1 \cos(\ln x) + C_2 \sin(\ln x)] - \frac{1}{2}(\ln x) x^2 \cos(
 
 ---
 
-**Next Steps:** Practice these transformations with the [Module 5 Practice Questions](./02-practice-questions.md).
+**Next Steps:** Practice these transformations with the [Module 5 Practice Questions](#module-5-practice).
 
+
+<a id="module-5-practice"></a>
 
 # 📝 Module 5 Practice: Cauchy-Euler Equations
 
