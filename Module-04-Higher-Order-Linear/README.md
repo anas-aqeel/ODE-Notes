@@ -46,6 +46,15 @@ Navigate through the methods for finding these parts using the links below:
 *   **Rule:** The Exponential Shift Theorem.
 *   *Includes solved examples combining multiple methods.*
 
+### 📄 [6. Particular Integral ($y_p$): Principle of Superposition](./06-yp-superposition.md)
+*   **The Concept:** When $F(x)$ is a sum of different function types, split into parts, solve each separately, and add.
+*   **The Method:** Linearity of the differential operator allows solving each term independently.
+*   *Includes a step-by-step solved example.*
+
+### 📝 [7. Practice Questions](./07-practice-questions.md)
+*   Comprehensive problems covering all $y_c$ and $y_p$ methods: homogeneous equations, exponential, algebraic, trigonometric, shift rule, superposition, and initial value problems.
+*   *Includes fully worked solutions.*
+
 ---
 
 **Next Steps:** The first step in solving *any* higher-order linear equation is finding the Complementary Function. Proceed to [Topic 1: Finding $y_c$](./01-finding-yc.md).

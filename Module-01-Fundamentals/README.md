@@ -32,6 +32,10 @@ Navigate through the topics covered in this module using the links below:
 *   **Methodology:** Differentiating ordinary equations and eliminating constants.
 *   *Includes step-by-step solved exercises.*
 
+### 📝 [4. Practice Questions](./04-practice-questions.md)
+*   Problems covering definitions, order & degree, and formation of ODEs.
+*   *Includes fully worked solutions.*
+
 ---
 
 **Next Steps:** Start with the first topic, [Basic Definitions](./01-definitions.md), to begin your study of differential equations.

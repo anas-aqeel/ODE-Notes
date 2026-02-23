@@ -99,4 +99,4 @@ $$ y_p = \frac{x e^{2x}}{2} \left( \frac{\sin 3x}{3} \right) = \frac{x e^{2x} \s
 
 ---
 
-**Next Module:** You have successfully learned how to solve linear equations with *constant* coefficients. But what happens if the coefficients are variables (like $x^2$ or $x$)? Proceed to [Module 5: Cauchy-Euler Differential Equations](../Module-05-Variable-Coeff/README.md).
+**Next Method:** What if $F(x)$ is a *sum* of different function types? We can split the problem into parts. Proceed to [Method 6: Principle of Superposition](./06-yp-superposition.md).

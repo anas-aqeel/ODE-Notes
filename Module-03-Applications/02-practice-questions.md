@@ -75,3 +75,7 @@ This section contains practice problems for finding the geometric orthogonal tra
    Multiply by 2 and rearrange:
    $-2x = y^2 + 2K$
    **Final Answer:** $2x + y^2 = C$ (A family of parabolas opening to the left).
+
+---
+
+**Next Module:** We now move to Higher-Order Differential Equations, starting with finding the Complementary Function. Proceed to [Module 4: Higher-Order Linear ODEs](../Module-04-Higher-Order-Linear/README.md).

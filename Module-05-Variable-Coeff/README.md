@@ -24,6 +24,10 @@ Navigate to the lesson for this module using the link below:
 *   **The Transformation:** Changing $x\frac{dy}{dx}$ to $Dy$ and $x^2\frac{d^2y}{dx^2}$ to $D(D-1)y$.
 *   *Includes step-by-step solved questions converting back and forth between $x$ and $t$ domains.*
 
+### 📝 [2. Practice Questions](./02-practice-questions.md)
+*   Comprehensive Cauchy-Euler problems including algebraic, logarithmic, and trigonometric right-hand sides.
+*   *Includes fully worked solutions for 4th order, complex roots, and double failure cases.*
+
 ---
 
 **Next Steps:** Proceed to [Topic 1: Cauchy-Euler Equations](./01-cauchy-euler-eqs.md) to learn how to master this transformative technique.

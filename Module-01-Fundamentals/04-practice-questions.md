@@ -82,3 +82,7 @@ This section contains homework and practice problems to test your understanding 
    $m^4 - 1 = 0$
 4. **Convert back to derivatives:**
    **Final Answer:** $y'''' - y = 0$ (or $\frac{d^4y}{dx^4} - y = 0$)
+
+---
+
+**Next Module:** You have successfully completed Module 1! You are now ready to begin solving equations. Proceed to [Module 2: Solving First-Order ODEs](../Module-02-First-Order-ODEs/README.md).

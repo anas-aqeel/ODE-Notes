@@ -315,3 +315,7 @@ This section contains all the comprehensive practice problems and homework quest
    Substitute $C_1$ into (Eq. A): $C_2 = \frac{7}{3} - \frac{29}{12} = \frac{28}{12} - \frac{29}{12} = -\frac{1}{12}$.
 6. **Final Particular Solution:**
    $$ y = \frac{29}{12}e^{3x} - \frac{1}{12}e^{-x} - \frac{2}{3}e^{2x} + \frac{1}{3}\cos 3x - \frac{2}{3}\sin 3x $$
+
+---
+
+**Next Module:** You have successfully learned how to solve linear equations with *constant* coefficients. But what happens if the coefficients are variables (like $x^2$ or $x$)? Proceed to [Module 5: Cauchy-Euler Differential Equations](../Module-05-Variable-Coeff/README.md).

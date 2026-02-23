@@ -121,4 +121,4 @@ $$ y(x) = x^2 [C_1 \cos(\ln x) + C_2 \sin(\ln x)] - \frac{1}{2}(\ln x) x^2 \cos(
 
 ---
 
-**🎉 Congratulations!** You have completed the structured course notes for Ordinary Differential Equations based on your provided material.
+**Next Steps:** Practice these transformations with the [Module 5 Practice Questions](./02-practice-questions.md).

@@ -154,3 +154,7 @@ Transformations:
    $$ y(t) = (C_1 + C_2t)e^{2t} + t^2 e^{2t} $$
 5. **Resubstitute back to $x$:**
    $$ y(x) = (C_1 + C_2\ln x)x^2 + (\ln x)^2 x^2 $$
+
+---
+
+**🎉 Congratulations!** You have completed the structured course notes for Ordinary Differential Equations based on your provided material.

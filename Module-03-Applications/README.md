@@ -22,6 +22,10 @@ Navigate through the applications covered in this module using the link below:
 *   **The Method:** Using the negative reciprocal of the slope ($-\frac{dx}{dy}$) to find the perpendicular family.
 *   *Includes step-by-step solved questions for algebraic and trigonometric curves.*
 
+### 📝 [2. Practice Questions](./02-practice-questions.md)
+*   Problems on finding orthogonal trajectories for circles, parabolas, and exponential curves.
+*   *Includes fully worked solutions.*
+
 ---
 
 **Next Steps:** Proceed to the topic [Orthogonal Trajectories](./01-orthogonal-trajectories.md) to see how differential equations define the shape of perpendicular curves.

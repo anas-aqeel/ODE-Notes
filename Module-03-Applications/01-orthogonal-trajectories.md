@@ -107,4 +107,4 @@ $$ x = -\frac{4}{3} y^{3/2} + C $$
 
 ---
 
-**Next Module:** We now move to Higher-Order Differential Equations, starting with finding the Complementary Function. Proceed to [Module 4: Higher-Order Linear ODEs](../Module-04-Higher-Order-Linear/README.md).
+**Next Steps:** Practice finding orthogonal trajectories with the [Module 3 Practice Questions](./02-practice-questions.md).

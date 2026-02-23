@@ -53,6 +53,7 @@ This repository is organized into modular folders for easy navigation. Click on 
 *   Particular Integral ($y_p$) - Algebraic Functions
 *   Particular Integral ($y_p$) - Trigonometric Functions
 *   Particular Integral ($y_p$) - Product/Shift Rule
+*   Particular Integral ($y_p$) - Principle of Superposition
 
 ### [Module 5: Higher-Order Linear ODEs (Variable Coefficients)](./Module-05-Variable-Coeff/)
 *   Cauchy-Euler Differential Equations

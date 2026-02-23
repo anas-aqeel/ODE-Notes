@@ -32,3 +32,7 @@ When the function $F(x)$ on the right side is a sum of different types of functi
 **5. Final General Solution:**
    $y = y_c + y_{p1} + y_{p2}$
    $$ y = C_1 e^{3x} + C_2 e^{-x} - \frac{2}{3} e^{2x} + \frac{1}{3}\cos 3x - \frac{2}{3}\sin 3x $$
+
+---
+
+**Next Steps:** Put all the methods together with the [Module 4 Practice Questions](./07-practice-questions.md).

@@ -77,4 +77,4 @@ $$ y = A\cos x + B\sin x $$
 
 ---
 
-**Next Steps:** You have successfully completed Module 1! You are now ready to begin solving equations. Proceed to [Module 2: Solving First-Order ODEs](../Module-02-First-Order-ODEs/README.md).
+**Next Steps:** Test your understanding of these concepts with the [Module 1 Practice Questions](./04-practice-questions.md).

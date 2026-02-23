@@ -119,4 +119,4 @@ $$ \frac{1}{y^2} = \frac{1}{4} + Ce^{4x^2} $$
 
 ---
 
-**Next Module:** Now that we have mastered all methods for solving first-order equations, we will explore their geometric applications. Proceed to [Module 3: Applications of First-Order ODEs](../Module-03-Applications/README.md).
+**Next Steps:** Test your mastery of all five first-order methods with the [Module 2 Practice Questions](./06-practice-questions.md).

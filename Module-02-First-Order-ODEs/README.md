@@ -44,6 +44,10 @@ Navigate through the methods covered in this module using the links below. It is
 *   **The Substitution:** Dividing by $y^n$ and substituting $z = y^{1-n}$ to transform it into a standard Linear DE.
 *   *Includes 2 step-by-step solved questions.*
 
+### 📝 [6. Practice Questions](./06-practice-questions.md)
+*   Categorized problems covering all five methods: Variable Separable, Homogeneous, Reducible to Homogeneous, Linear, and Bernoulli.
+*   *Includes fully worked solutions.*
+
 ---
 
 **Next Steps:** Start with the most fundamental solving technique: [Method 1: Variable Separable](./01-variable-separable.md).

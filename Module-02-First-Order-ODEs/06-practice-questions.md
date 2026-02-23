@@ -95,3 +95,7 @@ This section contains practice questions from your homework assignments, categor
 5. **Resubstitute $z = y^{-4}$:**
    $y^{-4}x^2 = -4x^5 + C$
    **Final Answer:** $\frac{x^2}{y^4} = -4x^5 + C$
+
+---
+
+**Next Module:** Now that we have mastered all methods for solving first-order equations, we will explore their geometric applications. Proceed to [Module 3: Applications of First-Order ODEs](../Module-03-Applications/README.md).
